@@ -15,6 +15,7 @@ $(call inherit-product, frameworks/native/build/phone-xhdpi-4096-dalvik-heap.mk)
 
 # Installs third party camera
 $(call inherit-product-if-exists, vendor/xiaomi/miatoll-gcam/miatoll-gcam-vendor.mk)
+$(call inherit-product-if-exists, vendor/xiaomi/miuicamera/config.mk)
 
 # Enforce native interfaces of product partition as VNDK
 PRODUCT_PRODUCT_VNDK_VERSION := current
