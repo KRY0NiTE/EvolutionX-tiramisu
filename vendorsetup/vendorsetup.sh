@@ -46,3 +46,5 @@ rm -rf packages/resources/devicesettings
 git clone https://gitlab.com/ImSurajxD/clang-r450784d.git prebuilts/clang/host/linux-x86/clang-r450784d --depth 1
 git clone https://github.com/Evolution-X/packages_resources_devicesettings.git packages/resources/devicesettings --depth 1
 git clone https://gitlab.com/nekoshirro/Alchemist-LLVM.git prebuilts/clang/host/linux-x86/clang-alchemist --depth 1
+git clone https://gitlab.pixelexperience.org/android/vendor-blobs/vendor_xiaomi_miatoll-gcam.git vendor/xiaomi/miatoll-gcam --depth 1
+git clone https://github.com/SonalSingh18/vendor_xiaomi_miuicamera.git vendor/xiaomi/miuicamera --depth 1
