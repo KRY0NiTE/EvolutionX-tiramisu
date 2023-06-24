@@ -41,6 +41,7 @@ rm -rf device/xiaomi/x*
 rm -rf device/xiaomi/y*
 rm -rf device/xiaomi/z*
 rm -rf packages/resources/devicesettings
+rm -rf bionic
 
 # Clone needed repository
 git clone https://gitlab.com/ImSurajxD/clang-r450784d.git prebuilts/clang/host/linux-x86/clang-r450784d --depth 1
@@ -48,4 +49,4 @@ git clone https://github.com/Evolution-X/packages_resources_devicesettings.git p
 git clone https://gitlab.com/nekoshirro/Alchemist-LLVM.git prebuilts/clang/host/linux-x86/clang-alchemist --depth 1
 git clone https://gitlab.pixelexperience.org/android/vendor-blobs/vendor_xiaomi_miatoll-gcam.git vendor/xiaomi/miatoll-gcam --depth 1
 git clone https://github.com/nekoshirro/miuicamera.git vendor/xiaomi/miuicamera --depth 1
-
+git clone https://github.com/nekoshirro/bionic-evox.git bionic
