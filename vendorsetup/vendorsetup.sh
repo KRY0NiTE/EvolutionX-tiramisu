@@ -41,6 +41,8 @@ rm -rf device/xiaomi/x*
 rm -rf device/xiaomi/y*
 rm -rf device/xiaomi/z*
 rm -rf packages/resources/devicesettings
+rm -rf vendor/xiaomi/miatoll-gcam
+rm -rf vendor/xiaomi/miuicamera
 
 # Clone needed repository
 git clone https://gitlab.com/ImSurajxD/clang-r450784d.git prebuilts/clang/host/linux-x86/clang-r450784d --depth 1
